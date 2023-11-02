@@ -6,6 +6,7 @@ import WorkoutDetails from "../components/WorkoutDetails"
 import WorkoutForm from "../components/WorkoutForm"
 
 const Home = () => {
+
   const { workouts, dispatch } = useWorkoutsContext()
 
   useEffect(() => {
@@ -31,6 +32,7 @@ const Home = () => {
       <WorkoutForm />
     </div>
   )
+  
 }
 
 export default Home
